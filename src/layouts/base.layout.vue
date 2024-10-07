@@ -39,7 +39,7 @@ const tools = computed<ToolCategory[]>(() => [
         <HeroGradient class="gradient" />
         <div class="text-wrapper">
           <div class="title">
-            IT - TOOLS
+            GDL IT Tools
           </div>
           <div class="divider" />
           <div class="subtitle">
@@ -61,7 +61,7 @@ const tools = computed<ToolCategory[]>(() => [
 
         <div class="footer">
           <div>
-            IT-Tools
+            GDL IT Tools
 
             <c-link target="_blank" rel="noopener" :href="`https://github.com/CorentinTh/it-tools/tree/v${version}`">
               v{{ version }}
@@ -81,8 +81,8 @@ const tools = computed<ToolCategory[]>(() => [
           </div>
           <div>
             © {{ new Date().getFullYear() }}
-            <c-link target="_blank" rel="noopener" href="https://corentin.tech?utm_source=it-tools&utm_medium=footer">
-              Corentin Thomasset
+            <c-link target="_blank" rel="noopener" href="https://gdltools.live">
+              GDL IT Tools
             </c-link>
           </div>
         </div>
@@ -123,7 +123,7 @@ const tools = computed<ToolCategory[]>(() => [
         <c-tooltip position="bottom" :tooltip="$t('home.support')">
           <c-button
             round
-            href="https://www.buymeacoffee.com/cthmsst"
+            href="http://gdls.me/buymecoffefortools"
             rel="noopener"
             target="_blank"
             class="support-button"
