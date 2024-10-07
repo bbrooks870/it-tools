@@ -8,7 +8,7 @@ import { config } from '@/config';
 
 const toolStore = useToolStore();
 
-useHead({ title: 'IT Tools - Handy online tools for developers' });
+useHead({ title: 'GDL IT Tools: Level up your dev game' });
 const { t } = useI18n();
 </script>
 
@@ -18,24 +18,12 @@ const { t } = useI18n();
       <div class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
         <ColoredCard v-if="config.showBanner" :title="$t('home.follow.title')" :icon="Heart">
           {{ $t('home.follow.p1') }}
-          <a
-            href="https://github.com/CorentinTh/it-tools"
-            rel="noopener"
-            target="_blank"
-            :aria-label="$t('home.follow.githubRepository')"
-          >GitHub</a>
-          {{ $t('home.follow.p2') }}
-          <a
-            href="https://twitter.com/ittoolsdottech"
-            rel="noopener"
-            target="_blank"
-            :aria-label="$t('home.follow.twitterAccount')"
-          >Twitter</a>.
+          
           {{ $t('home.follow.thankYou') }}
           <n-icon :component="Heart" />
         </ColoredCard>
 
-        <a href="https://bit.ly/3zBl7DG" target="_blank" rel="noopener" class="text-current decoration-none">
+        <a href="https://bit.dly/3zBl7DG" target="_blank" rel="noopener" class="text-current decoration-none">
           <c-card v-if="config.showSponsorBanner" class="cursor-pointer !border-2px !hover:border-primary">
             <div class="dark:hidden">
               <svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
