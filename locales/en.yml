@@ -7,28 +7,28 @@ home:
   toggleMenu: 'Toggle menu'
   home: Home
   uiLib: 'UI Lib'
-  support: 'Support IT-Tools development'
+  support: 'Support GDL IT Tools development'
   buyMeACoffee: 'Buy me a coffee'
   follow:
-    title: 'You like it-tools?'
+    title: 'You like GDL IT Tools?'
     p1: 'Give us a star on'
-    githubRepository: 'IT-Tools GitHub repository'
+    githubRepository: 'GDL IT Tools GitHub repository'
     p2: 'or follow us on'
-    twitterAccount: 'IT-Tools Twitter account'
+    twitterAccount: 'GDL IT Tools Twitter account'
     thankYou: 'Thank you!'
   nav:
     github: 'GitHub repository'
-    githubRepository: 'IT-Tools GitHub repository'
+    githubRepository: 'GDL IT Tools GitHub repository'
     twitter: 'Twitter account'
     twitterAccount: 'IT Tools Twitter account'
-    about: 'About  IT-Tools'
+    about: 'About  GDL IT Tools'
     aboutLabel: 'About'
     darkMode: 'Dark mode'
     lightMode: 'Light mode'
     mode: 'Toggle dark/light mode'
 about:
   content: >
-    # About IT-Tools
+    # About GDL IT Tools
 
     This wonderful website, made with ❤ by GDL IT Tools. Level up your development game with GDL IT Tools.  We provide handy online tools for developers and IT professionals to streamline workflows and boost productivity.  Explore our collection of essential resources and code smarter, not harder.
 
